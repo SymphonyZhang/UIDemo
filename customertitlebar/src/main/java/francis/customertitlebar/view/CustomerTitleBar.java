@@ -99,7 +99,7 @@ public class CustomerTitleBar extends RelativeLayout {
         tvTitle.setTextColor(titleTextColor);
         tvTitle.setText(title);
         tvTitle.setGravity(Gravity.CENTER);
-        //setBackgroundColor(0xFFF59563);
+        setBackgroundColor(0xFFF59563);
 
         //设置控件位置----
         leftParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);//设置控件宽高
