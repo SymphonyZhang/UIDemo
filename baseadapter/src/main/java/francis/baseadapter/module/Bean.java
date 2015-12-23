@@ -8,6 +8,15 @@ public class Bean {
     private String desc;
     private String time;
     private String phone;
+    private boolean isChecked;
+
+    public boolean isChecked() {
+        return isChecked;
+    }
+
+    public void setChecked(boolean checked) {
+        isChecked = checked;
+    }
 
     public Bean() {
     }

@@ -1,0 +1,21 @@
+传统方式：List<T> : ListView  --> Adapter extends BaseAdapter  --> ViewHolder
+
+目标：
+通用的ViewHolder
+通用的CommonAdapter
+
+-----------------------------------------------------------------------
+通用的ViewHolder类
+convertView.setTag(holder);
+ViewHolder：Item各种控件的引用
+
+Map<int,View> --->SparseArray
+getView(int id);
+
+public View getView(int position, View convertView, ViewGroup parent){
+
+    ViewHolder holder = ...
+    TextView tv = holder.getView(resId);
+    tv.setText(...);
+}
+
